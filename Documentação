@@ -9,6 +9,7 @@ e dentre mais, e desta forma foi feito, no entanto ele não está no seu 100% pe
 o banco de dados se torna um grande desafio pela quantidade de armazenamento a preencher, a estilização do mesmo ainda tem que ser aprimorada
 e infelizmente demanda mais tempo do que o previsto.
 
-[FASE 3] = Para próxima etapa buscaremos aprimorar o banco de dados e completar o restante de informações que temos que preencher das áreas 
-por cada uma ser um tipo diferente da outra sempre há informações novas a serem colocadas e por isso pendências, após isso só restara estruturar
-melhor as páginas e estilizar com uma ideia que já temos para o site.
+[FASE 3] = Para próxima etapa buscaremos aprimorar o banco de dados e completar o restante de informações que temos que preencher das áreas,
+por cada uma ser um tipo diferente da outra sempre há informações novas a serem colocadas e por isso pendências, após isso iremos integrar a 
+API do google maps para melhorar a experiência do site e a precisão dos dadods de localização, só restara então terminar a estruturação
+das páginas e estilizar com uma ideia que já temos em base para o site.
