@@ -1,0 +1,14 @@
+[FASE 1] = O inicio do projeto se deu ao fim de outro, nossa equipe decidiu mudar de projeto na última semana e fazer um independente,
+tivemos complicações com o anterior e por isso decidimos fazer um mais autônomo, assim iniciou a ideia de criar um site django com o
+objetivo de mostrar diferentes lugares paras as pessoas de recife, lugares para comer, praias, cinemas, bares, lazeres e turismo geral,
+é fato que você pode encontrar tudo que quiser no google, mas como poderia encontrar algo que você nem sabe que exite? nem sabe o nome?
+
+[FASE 2] = O site então seria feito pelas 6 áreas de interesse 1° Comidas / 2° Cinemas / 3° Bares / 4° Lazeres / 5° Praias / 6° Turismo.
+Cada uma dessas teria um banco de dados para armazenar o nome, localização(Bairro, endereço, referencial), site se houver, distância de você
+e dentre mais, e desta forma foi feito, no entanto ele não está no seu 100% pela demanda que exige o site tem muitos pontos a serem feitos,
+o banco de dados se torna um grande desafio pela quantidade de armazenamento a preencher, a estilização do mesmo ainda tem que ser aprimorada
+e infelizmente demanda mais tempo do que o previsto.
+
+[FASE 3] = Para próxima etapa buscaremos aprimorar o banco de dados e completar o restante de informações que temos que preencher das áreas 
+por cada uma ser um tipo diferente da outra sempre há informações novas a serem colocadas e por isso pendências, após isso só restara estruturar
+melhor as páginas e estilizar com uma ideia que já temos para o site.
