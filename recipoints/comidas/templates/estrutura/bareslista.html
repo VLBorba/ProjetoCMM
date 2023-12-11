@@ -7,9 +7,9 @@
     <title>Recipoints.com</title>
   </head>
   <body>
-    <h1 class="navbar bg-dark" data-bs-theme="dark">RECIPOINTS</h1>
-    <nav class="navbar bg-dark" data-bs-theme="dark">
-        <a class="navbar-brand" href="#521252">Comidas</a>
+    <h1 class="p-3 mb-2 bg-dark bg-gradient text-white" >RECIPOINTS</h1>
+    <nav class="p-3 mb-2 bg-dark bg-gradient text-white">
+        <a class="navbar-brand" href="#521252">Bares</a>
     </nav>
 
     <main>
@@ -21,16 +21,18 @@
                 <th scope="col">Endreços</th>
                 <th scope="col">Horários</th>
                 <th scope="col">Distância</th>
+                <th scope="col">Site</th>
               </tr>
             </thead>
             <tbody>
-                {% for comidas in place %}
+                {% for bares in place %}
                     <tr>
-                        <th scope="row">{{comidas.pk}}</th>
-                        <td>{{comidas.bairro}}</td>
-                        <td>{{comidas.endereco}}</td>
-                        <td>{{comidas.horario}}</td>
-                        <td>{{comidas.distancia}}</td>
+                        <th scope="row">{{bares.pk}}</th>
+                        <td>{{bares.bairro}}</td>
+                        <td>{{bares.endereco}}</td>
+                        <td>{{bares.horario}}</td>
+                        <td>{{bares.distancia}}</td>
+                        <td>{{bares.site}}</td>
                         <td>
                             <a href="#521252" class="btn btn-primary btn-sm" >Ver Mais</a>
                         </td>
@@ -40,7 +42,7 @@
           </table>
     </main>
     <a href="{% url 'home_rota' %}" class="btn btn-primary">Voltar a pagina inicial</a>
-    
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

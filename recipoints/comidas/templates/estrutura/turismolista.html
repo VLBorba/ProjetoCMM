@@ -7,9 +7,9 @@
     <title>Recipoints.com</title>
   </head>
   <body>
-    <h1 class="navbar bg-dark" data-bs-theme="dark">RECIPOINTS</h1>
-    <nav class="navbar bg-dark" data-bs-theme="dark">
-        <a class="navbar-brand" href="#521252">Cinemas</a>
+    <h1 class="p-3 mb-2 bg-dark bg-gradient text-white">RECIPOINTS</h1>
+    <nav class="p-3 mb-2 bg-dark bg-gradient text-white">
+        <a class="navbar-brand" href="#521252">Turismo</a>
     </nav>
 
     <main>
@@ -25,14 +25,14 @@
               </tr>
             </thead>
             <tbody>
-                {% for place in cinema %}
+                {% for turismo in place %}
                     <tr>
-                        <th scope="row">{{cinema.pk}}</th>
-                        <td>{{cinema.bairro}}</td>
-                        <td>{{cinema.endereco}}</td>
-                        <td>{{cinema.horario}}</td>
-                        <td>{{cinema.distancia}}</td>
-                        <td>{{cinemas.site}}</td>
+                        <th scope="row">{{turismo.pk}}</th>
+                        <td>{{turismo.bairro}}</td>
+                        <td>{{turismo.endereco}}</td>
+                        <td>{{turismo.horario}}</td>
+                        <td>{{turismo.distancia}}</td>
+                        <td>{{turismo.site}}</td>
                         <td>
                             <a href="#521252" class="btn btn-primary btn-sm" >Ver Mais</a>
                         </td>
